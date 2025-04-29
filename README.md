@@ -1,2 +1,21 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# dcat
+
+`dcat` 是一个命令行工具，用于读取文件内容并输出到终端，类似于 Unix 系统中的 `cat` 命令。它支持显示行号功能、从标准输入读取内容，并支持将内容写入文件。
+
+## 功能
+
+- 输出文件内容到终端。
+- 支持显示行号。
+- 支持从标准输入读取内容。
+- 支持将内容写入文件。
+
+## 安装
+
+确保您已安装 Dart SDK，然后克隆此项目并运行以下命令以获取依赖项：
+
+dart pub get
+
+## 使用方法
+
+运行以下命令启动应用程序：
+dart run helloworld.dart
